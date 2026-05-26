@@ -6,8 +6,8 @@
 }
 /* navigation bar*/
 nav{
-    display:flex;
-    align-items:centre;
+    display: flex;
+    align-items: center;
 }
 nav a{
     font-family: 'Courier New', Courier, monospace;
@@ -15,16 +15,16 @@ nav a{
     font-weight: 700;
     letter-spacing: 0.12rem;
     text-transform: uppercase;
-    color:var(--white);
+    color: var(--white);
     text-decoration: none;
-    margin-left:32px;
+    margin-left: 32px;
     padding-bottom: 4px;
     border-bottom: 2px solid transparent;
-    transition: color 0.25s ease, border-color 0.25s ease;;
+    transition: color 0.25s ease, border-color 0.25s ease;
 }
 nav a:hover{
     color: black;
-    border-bottom-color:black;
+    border-bottom-color: black;
 }
 nav a:visited{
     color: black;
@@ -35,21 +35,21 @@ nav a:active{
 /*buttons*/
 button{
     background-color: var(--charcoal);
-    border:none;
+    border: none;
     padding: 0;
     cursor: pointer;
     border-radius: 2px;
     transition: background-color 0.25s ease, transform 0.15s ease;
 }
 button:hover{
-    background-color: var(--charcoal-mid) ;
+    background-color: var(--charcoal-mid);
     transform: translate(-1px);
 }
 .rounded-photo {
-     width: 300px;
-     height: 300px;
-     border: black;
-     border-radius: 30px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 30px;
 }
 body{
     background-color: dimgray;
