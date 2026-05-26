@@ -1,0 +1,78 @@
+/*--css variables-- */
+: :root{
+    --charcoal: #2c2c2c;
+    --charcoal-mid: #444444;
+    --white: #ffffff; 
+}
+/* navigation bar*/
+nav{
+    display:flex;
+    align-items:centre;
+}
+nav a{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.12rem;
+    text-transform: uppercase;
+    color:var(--white);
+    text-decoration: none;
+    margin-left:32px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid transparent;
+    transition: color 0.25s ease, border-color 0.25s ease;;
+}
+nav a:hover{
+    color: black;
+    border-bottom-color:black;
+
+}
+nav a:visited{
+    color: black;
+}
+nav a:active{
+    color: black;
+}
+/*buttons*/
+button{
+    background-color: var(--charcoal);
+    border:none;
+    padding: 0;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: background-color 0.25s ease, ttransform 0.15s ease;
+}
+button:hover{
+    background-color: var(--charcoal-mid) ;
+    transform: translate(-1px);
+}
+.rounded-photo {
+     width: 300px;
+     height: 300px;
+     border: black;
+     border-radius: 30px;
+}
+body{background-color: dimgray;
+    }
+h1, h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    line-height: 2.25;
+    margin-bottom: 0.75rem;
+}
+h1{font-size: 2.6rem;font-weight: 700;}
+h2{font-size: 2.6rem;font-weight: 700;}
+p{
+     font-family: 'Courier New', Courier, monospace;
+    color: black;
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+}
+p{font-size: 2.6rem;font-weight: 700;}
+h1{
+     font-family: 'Courier New', Courier, monospace;
+    color: black;
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+}
+h1{font-size: 2.6rem;font-weight: 700;}
