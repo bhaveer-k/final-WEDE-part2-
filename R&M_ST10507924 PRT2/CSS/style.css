@@ -1,5 +1,5 @@
 /*--css variables-- */
-: :root{
+:root{
     --charcoal: #2c2c2c;
     --charcoal-mid: #444444;
     --white: #ffffff; 
@@ -25,7 +25,6 @@ nav a{
 nav a:hover{
     color: black;
     border-bottom-color:black;
-
 }
 nav a:visited{
     color: black;
@@ -40,7 +39,7 @@ button{
     padding: 0;
     cursor: pointer;
     border-radius: 2px;
-    transition: background-color 0.25s ease, ttransform 0.15s ease;
+    transition: background-color 0.25s ease, transform 0.15s ease;
 }
 button:hover{
     background-color: var(--charcoal-mid) ;
@@ -52,27 +51,28 @@ button:hover{
      border: black;
      border-radius: 30px;
 }
-body{background-color: dimgray;
-    }
+body{
+    background-color: dimgray;
+}
 h1, h2{
     font-family: 'Courier New', Courier, monospace;
     color: black;
     line-height: 2.25;
     margin-bottom: 0.75rem;
 }
-h1{font-size: 2.6rem;font-weight: 700;}
-h2{font-size: 2.6rem;font-weight: 700;}
-p{
-     font-family: 'Courier New', Courier, monospace;
-    color: black;
-    line-height: 1.25;
-    margin-bottom: 0.75rem;
-}
-p{font-size: 2.6rem;font-weight: 700;}
 h1{
-     font-family: 'Courier New', Courier, monospace;
+    font-size: 2.6rem;
+    font-weight: 700;
+}
+h2{
+    font-size: 2.6rem;
+    font-weight: 700;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
     color: black;
     line-height: 1.25;
     margin-bottom: 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
 }
-h1{font-size: 2.6rem;font-weight: 700;}
